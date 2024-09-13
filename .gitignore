@@ -1,0 +1,12 @@
+#
+Readme.txt
+#
+sources/
+tmp/
+temp/
+#
+*.bak
+*.log
+*.orig
+*.tmp
+*.orig.py
