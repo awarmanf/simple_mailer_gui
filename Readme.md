@@ -13,9 +13,9 @@ memorize all email passwords only need one masterkey to read the config.
 
 Python version: 2.7
 
-This is the looking of the final application.
+This is the looking of the final application (click on the image below to show the youtube video).
 
-<video src="simpleMailer.mkv" controls></video>
+[![Simple Mailer GUI](simplemailer.png)](https://www.youtube.com/watch?v=Ktu9UzjThNg)
 
 Personally this is my first GUI programming with wxpython. I am prefer wxpython than tkinter due to native look-and-feel :).
 
