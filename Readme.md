@@ -31,6 +31,38 @@ Windows which has already installed python2.7.
 
     pip install -U wxPython
 
+## About Application
+
+The application name is _simpleMailer.py_. You can execute it by entering command
+
+    python simpleMailer.py
+
+## Icon Images
+
+Images such as email icon, exit menu icon, etc are embedded into script `myImages.py` using tool `img2py.py`
+
+For Linux
+
+    python /usr/lib/python2.7/dist-packages/wx-3.0-gtk2/wx/tools/img2py.py -i icons/email-icon.png myImages.py
+
+For Windows, copy the scripts to the working directory
+
+    copy C:\Python27\Lib\site-packages\wx\tools\img2py.py .
+    copy C:\Python27\Lib\site-packages\wx\tools\img2img.py .
+    python img2py.py -i icons\email-icon.png myImages.py
+
+For adding a new icon in Linux
+
+    python /usr/lib/python2.7/dist-packages/wx-3.0-gtk2/wx/tools/img2py.py -ai icons/exit-item.png myImages.py
+
+Or in Windows
+
+    python img2py.py -ai icons\exit-item.png myImages.py
+
+All icons are downloaded from this site
+
+[Icon Archive](https://www.iconarchive.com)
+
 ## Stages
 
 I'm developing this GUI Application from the very start until the final stages. From the easiest 
@@ -53,6 +85,7 @@ Add features
 
 - Regex to check the email validity
 - An icon which shown at the top left of the application
+- Version 1.0
 
 [Stage Two](https://github.com/awarmanf/simple_mailer_gui/tree/master/2_Stage_Two)
 
@@ -67,12 +100,24 @@ Add features
 - PLAIN with authentication using port 587
 - TLS using port 587
 - SSL using port 465
+- Version 1.1
 
 [Stage Three](https://github.com/awarmanf/simple_mailer_gui/tree/master/3_Stage_Three)
 
 ### Stage 4
 
-Under development.
+Add features
+
+- Use file config.ini to save the accounts
+  - Signature
+  - Email address
+  - Password
+  - SMTP Host
+- Use control on menu combobox to select the account
+- Support file attachment
+- Version 1.2
+
+[Stage Four](https://github.com/awarmanf/simple_mailer_gui/tree/master/4_Stage_Four)
 
 ### Stage 5
 
