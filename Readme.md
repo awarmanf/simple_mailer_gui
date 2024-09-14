@@ -15,7 +15,7 @@ Python version: 2.7
 
 This is the looking of the final application (click on the image below to show the youtube video).
 
-[![Simple Mailer GUI](simplemailer.png)](https://www.youtube.com/watch?v=Ktu9UzjThNg)
+[![Simple Mailer GUI](simpleMailer.png)](https://www.youtube.com/watch?v=Ktu9UzjThNg)
 
 Personally this is my first GUI programming with wxpython. I am prefer wxpython than tkinter due to native look-and-feel :).
 
@@ -39,17 +39,17 @@ The application name is _simpleMailer.py_. You can execute it by entering comman
 
 ## Icon Images
 
-Images such as email icon, exit menu icon, etc are embedded into script `myImages.py` using tool `img2py.py`
+Images such as email icon, exit menu icon, etc are embedded into script `myImages.py` using script 
+`img2py.py` (Linux) or application `img2py` (Windows).
 
 For Linux
 
     python /usr/lib/python2.7/dist-packages/wx-3.0-gtk2/wx/tools/img2py.py -i icons/email-icon.png myImages.py
 
-For Windows, copy the scripts to the working directory
+For Windows, first make sure Python27 already in PATH 
 
-    copy C:\Python27\Lib\site-packages\wx\tools\img2py.py .
-    copy C:\Python27\Lib\site-packages\wx\tools\img2img.py .
-    python img2py.py -i icons\email-icon.png myImages.py
+    PATH=C:\Windows\system32;C:\Windows;...;C:\Python27;C:\Python27\Scripts
+    img2py -i icons\email-icon.png myImages.py
 
 For adding a new icon in Linux
 
@@ -57,11 +57,35 @@ For adding a new icon in Linux
 
 Or in Windows
 
-    python img2py.py -ai icons\exit-item.png myImages.py
+    img2py -ai icons\exit-item.png myImages.py
 
 All icons are downloaded from this site
 
 [Icon Archive](https://www.iconarchive.com)
+
+## Compiling python script into Win32 application (Windows)
+
+Install pyinstaller using pip
+
+    pip install pyinstaller
+
+Then create one file application exe with an icon `python-icon.ico`
+
+    pyinstaller -F -w -i python-icon.ico simpleMailer.py
+
+If the compilation is success it will create some directories
+
+![Pyinstaller](pyinstaller.png)
+
+Go to dist directory. The stand alone application will have a name `simpleMailer.exe` and an icon.
+
+![SimpleMailer](simpleMailer.exe.png)
+
+You can execute this application on Linux using wine.
+
+![SimpleMailer](wine.png)
+
+This executed on Ubuntu 22.04.
 
 ## Stages
 
