@@ -3,7 +3,7 @@
 
 This is my first application. It's very simple.
 
-Features
+## Features
 
 - No SSL or TSL. Email is sent by unsecure link. This email is not encrypted, its contents are transmitted as plain, readable text. 
 - Support SMTP Auth
