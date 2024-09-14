@@ -1,7 +1,7 @@
 
 # Simple Mailer - 4
 
-Features
+## Features
 
 - Use file config.ini to save the accounts
   - Signature
@@ -40,6 +40,12 @@ password = password
 The _config.ini_ is a clear text or not encrypted. So you must keep the file in secret.
 
 >File _config.ini_ is OS dependent. The application support DOS/Mac and Unix text file format.
+
+## Download Win32 Application
+
+Include file `config.ini`.
+
+[simpleMailer_1.2.zip](http://jember.net/files/simpleMailer_1.2.zip)
 
 ## Screenshots
 
