@@ -63,7 +63,7 @@ All icons are downloaded from this site
 
 [Icon Archive](https://www.iconarchive.com)
 
-## Compiling python script into Win32 application (Windows)
+## Compiling Python Script to Win32 Application (Windows)
 
 Install pyinstaller using pip
 
@@ -81,7 +81,7 @@ Go to dist directory. The stand alone application will have a name `simpleMailer
 
 ![SimpleMailer](simpleMailer.exe.png)
 
-You can execute this application on Linux using wine.
+You can execute this application on Linux too using wine ;).
 
 ![SimpleMailer](wine.png)
 
