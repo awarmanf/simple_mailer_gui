@@ -1,7 +1,7 @@
 
 # Simple Mailer - 3
 
-Features
+## Features
 
 - Test without sending a message
   - Authentication or login test
@@ -23,6 +23,10 @@ Features
 - Version 1.1
 
 Include all features from the previuos stage.
+
+## Download Win32 Application
+
+[simpleMailer_1.1.exe](http://jember.net/files/simpleMailer_1.1.exe)
 
 ## Screenshots
 
