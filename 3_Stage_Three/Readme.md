@@ -15,8 +15,8 @@ Features
   - Open, to open file for file attachment
   - About, to show the author and copy rights
   - Exit, to close the Application
-- Icons are saved on file *myImages.py* not as a static image
-  - Icon for menu (Open, About, Exit)
+- All Icon images are saved on file *myImages.py* not as a static image
+  - Icon for menu item (Open, About, Exit)
   - Icon viewer password
   - Icon email
 - Add tooltip on *self.txtRcpts* widget
@@ -26,21 +26,33 @@ Include all features from the previuos stage.
 
 ## Screenshots
 
+### Sent Email with File Attachment
+
+![Image 1](00.png)
+
+![Image 2](01.png)
+
+![Image 3](02.png)
+
+![Image 4](03.png)
+
+![Image 5](04.png)
+
+![Image 6](05.png)
+
+![Image 7](06.png)
+
 ### Send Email Test
 
-![Image 1](00.jpg)
+#### Authentication or Login Test
 
-![Image 2](02.jpg)
-
-### Authentication or Login Test
-
-![Image 3](03.jpg)
+![Image 3](01.jpg)
 
 After filling some required entries then click *Test Login* button.
 
-### Sender Check Test
+#### Sender Check Test
 
-![Image 4](04.jpg)
+![Image 4](02.jpg)
 
 After filling some required entries then click *Submit* button.
 
@@ -57,14 +69,14 @@ Some 5.7.1 errors
   You are not allowed to sent email to mailing list
 ```
 
-### Recipient Check Test
+#### Recipient Check Test
 
-![Image 5](05.jpg)
+![Image 5](03.jpg)
 
 After filling some required entries then click *Submit* button.
 
-![Image 6](07.jpg)
+![Image 6](04.jpg)
 
-Got error if the recipient not found or not exist.
+Got an error if the recipient was not found or not exist.
 
 

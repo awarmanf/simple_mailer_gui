@@ -14,8 +14,6 @@ Include all features from the previuos stage.
 
 Test the application only on your LAN.
 
-Icon archive [Email Icon](http://www.iconarchive.com/show/soft-scraps-icons-by-hopstarter/Email-icon.html)
-
 ## Screenshots
 
 ![Image 1](00.png)
