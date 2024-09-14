@@ -7,6 +7,8 @@ temp/
 #
 *.bak
 *.log
+*.mkv
 *.orig
+*.pyc
 *.tmp
 *.orig.py
