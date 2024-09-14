@@ -3,7 +3,7 @@
 
 Still very simple.
 
-Features
+## Features
 
 - A regex to check the email validity
 - Adding icon which shown at the top left of the application
