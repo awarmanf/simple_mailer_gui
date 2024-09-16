@@ -7,8 +7,11 @@ not only to send emails with file attachment but also to do some jobs:
 - Recipient Address Check
 - Sender Check
 
-It supports SASL and TLS security and of coure some regex to check the validity of the email address. Another 
-thing it has an encrypted config file which containts your signature and your email accounts. So you don't need 
+It supports SASL and TLS security and of coure some regex to check the validity of the email address.
+
+>Those features available on version 1.1
+
+Another thing it has an encrypted config file which containts your signature and your email accounts. So you don't need 
 memorize all email passwords only need one masterkey to read the config.
 
 Python version: 2.7
