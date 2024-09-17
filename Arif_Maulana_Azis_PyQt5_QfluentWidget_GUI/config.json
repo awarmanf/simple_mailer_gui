@@ -1,0 +1,11 @@
+{
+    "full_name": "",
+    "account_data": {
+        "1": {
+            "account_mail": "",
+            "account_password": ""
+        }
+    },
+    "SMTP_host": "",
+    "security_type": ""
+}

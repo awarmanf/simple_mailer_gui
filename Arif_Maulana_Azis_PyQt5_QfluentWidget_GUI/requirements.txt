@@ -1,0 +1,3 @@
+pyQt5
+"PyQt-Fluent-Widgets[full]" -i https://pypi.org/simple/
+PyQt5-Frameless-Window
