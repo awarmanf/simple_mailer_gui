@@ -144,18 +144,25 @@ Add features
 - Support file attachment
 - Version 1.2
 
+You must edit the file `config.ini` using text editor such as Notepad or Vim.
+
+![config.ini](config.png)
+
 [Stage Four](https://github.com/awarmanf/simple_mailer_gui/tree/master/4_Stage_Four)
 
 ### Stage 5
 
-Under development.
+On this stage, the entries passkey, signature and password on`config.ini` is encrypted using Crypto.Hash.SHA256. You can create and edit the config file in the application itself. The password hashed is supported both in Linux and windows.
+
+![config.ini](config.encrypted.png)
+
+Coming soon.
 
 ### Stage 6
 
-Under development.
+On this stage, the file `config.ini` renamed to `config.data` and is encrypted 
+with aesPBKDF2. You can create and edit the config file in the application itself. 
+This encrypion module is supported both in Linux and windows.
 
-
-
-
-
+Coming soon.
 
