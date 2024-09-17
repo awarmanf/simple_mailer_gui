@@ -10,10 +10,6 @@ SimpleMailer is a lightweight email-sending application built with PyQt5 and QFl
 - **Modern UI:** Uses QFluentWidgets for a clean, fluent design experience.
 - **Frameless Window:** Provides a modern, borderless window with custom close and minimize buttons.
 
-## Screenshots
-
-*(Include screenshots of the UI for better visual representation.)*
-
 ## Requirements
 
 - Python 3.7 or later
